@@ -2,7 +2,7 @@ from django.urls import path
 from .views import CategoryViewSet,BrandViewSet,ProductsViewSet
 
 from rest_framework.routers import DefaultRouter
-from .views import CategoryViewSet,BrandViewSet
+
 
 router = DefaultRouter()
 router.register(r'brand', BrandViewSet, basename='brand')
